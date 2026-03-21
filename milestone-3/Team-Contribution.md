@@ -33,6 +33,6 @@
 
 ## Manas Rastogi
 ### 22f3001477 
-- Researching and Experimenting different models (yolo11, yolo26) (nano, small)
+- Researching and Experimenting different models (ResNet, EfficientNet) (nano, small)
 - Helped in the development of Application Architecture
 
