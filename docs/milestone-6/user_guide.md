@@ -281,7 +281,7 @@ The Crop Disease AI Assistant is provided as a decision-support tool only. It is
 
 The following team members have reviwed and approved the contents of report/file:
 - [x] Harish Sahadev M
-- [ ] Sai Naman
+- [x] Sai Naman
 - [ ] Ayushi Dixit
 - [ ] Allanki Saketh Kumar
 - [x] Manas Rastogi
