@@ -826,7 +826,7 @@ This project successfully delivers a complete, live, zero-cost multimodal AI sys
 ### Team Member Signatures
 
 The following team members have reviewed and approved the contents of report/file:
-- [ ] Harish Sahadev M
+- [x] Harish Sahadev M
 - [x] Sai Naman
 - [ ] Ayushi Dixit
 - [ ] Allanki Saketh Kumar
