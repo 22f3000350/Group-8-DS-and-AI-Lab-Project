@@ -1,0 +1,4 @@
+model/mobilenet.pth filter=lfs diff=lfs merge=lfs -text
+rag/chroma_db/36fe35b5-45f0-433e-9907-882dda12759e/data_level0.bin filter=lfs diff=lfs merge=lfs -text
+rag/chroma_db/chroma.sqlite3 filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
