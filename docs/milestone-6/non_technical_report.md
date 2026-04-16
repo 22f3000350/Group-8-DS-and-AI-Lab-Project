@@ -389,4 +389,4 @@ The following team members have reviwed and approved the contents of report/file
 - [ ] Sai Naman
 - [x] Ayushi Dixit
 - [ ] Allanki Saketh Kumar
-- [ ] Manas Rastogi
+- [x] Manas Rastogi
