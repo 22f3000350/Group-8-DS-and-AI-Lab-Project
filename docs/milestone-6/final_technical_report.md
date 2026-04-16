@@ -830,4 +830,4 @@ The following team members have reviewed and approved the contents of report/fil
 - [ ] Sai Naman
 - [ ] Ayushi Dixit
 - [ ] Allanki Saketh Kumar
-- [ ] Manas Rastogi
+- [x] Manas Rastogi
