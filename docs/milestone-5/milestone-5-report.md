@@ -199,7 +199,7 @@ The 17×17 confusion matrix on the test set shows:
 - **Minimal cross-crop confusion** — the model correctly identifies the crop before the disease, with very few instances of, e.g., wheat disease being predicted as corn disease
 - **Sugarcane classes** — near-perfect diagonal for Sugarcane Healthy; some confusion for Red Rot and Bacterial Blight due to small test sample size (~10 images each)
 
-![Confusion Matrix](/milestone-4/visualisations/confusion_matrix.png)
+![Confusion Matrix](../milestone-4/visualisations/confusion_matrix.png)
 
 ### 6.2 Class-wise F1 Bar Chart
 
@@ -208,7 +208,7 @@ The per-class F1 chart reveals the bimodal distribution of performance:
 - 3 Rice disease classes cluster below 0.80
 - Sugarcane___Red_Rot is the single lowest-performing class due to extreme data scarcity
 
-![Classwise F1 Bar Chart](/milestone-4/visualisations/classwise_f1.png)
+![Classwise F1 Bar Chart](../milestone-4/visualisations/classwise_f1.png)
 
 ### 6.3 Training & Validation Curves
 
@@ -227,7 +227,7 @@ Across all 5 Optuna trials, the frozen-backbone strategy produced:
 ```
 Input: Corn leaf with common rust disease - jpg image
 ```
-![corn_common_rust.jpg](/milestone-5/visualisations%20and%20whisper-voice-outputs/corn_common_rust.jpg)
+![corn_common_rust.jpg](../milestone-5/visualisations%20and%20whisper-voice-outputs/corn_common_rust.jpg)
 
 ```
 Model Prediction:
@@ -262,7 +262,7 @@ Whisper Voice output: [LINK](./visualisations%20and%20whisper-voice-outputs/corn
 ```
 Input:        Sugarcane leaf with visible rot symptoms - webp image
 ```
-![sugarcane_red_rot.webp](/milestone-5/visualisations%20and%20whisper-voice-outputs/sugarcane_red_rot.webp)
+![sugarcane_red_rot.webp](visualisations%20and%20whisper-voice-outputs/sugarcane_red_rot.webp)
 ```
 Model Prediction:
 🌿 Crop: Sugarcane
@@ -294,7 +294,7 @@ Whisper Voice output: [LINK](./visualisations%20and%20whisper-voice-outputs/suga
 ```
 Input: Rice leaf with Brown spot, caused by Cochliobolus miyabeanus - webp image
 ```
-![rice_leaf_brown_spot_fail-1.webp](/milestone-5/visualisations%20and%20whisper-voice-outputs/rice_leaf_brown_spot_fail-1.webp)
+![rice_leaf_brown_spot_fail-1.webp](../milestone-5/visualisations%20and%20whisper-voice-outputs/rice_leaf_brown_spot_fail-1.webp)
 
 ```
 Model Prediction:
@@ -317,7 +317,7 @@ Whisper Voice output: [LINK](./visualisations%20and%20whisper-voice-outputs/rice
 ```
 Input: Wheat leaf with water droplets partially obscuring symptoms - webp image
 ```
-![wheat_water_droplet_fail-2.webp](/milestone-5/visualisations%20and%20whisper-voice-outputs/wheat_water_droplet_fail-2.webp)
+![wheat_water_droplet_fail-2.webp](../milestone-5/visualisations%20and%20whisper-voice-outputs/wheat_water_droplet_fail-2.webp)
 
 ```
 Model Prediction:
