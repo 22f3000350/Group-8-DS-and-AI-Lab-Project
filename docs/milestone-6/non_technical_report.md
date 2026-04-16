@@ -386,7 +386,7 @@ As we continue to improve and expand the system, our goal remains simple: to ens
 
 The following team members have reviwed and approved the contents of report/file:
 - [x] Harish Sahadev M
-- [ ] Sai Naman
+- [x] Sai Naman
 - [x] Ayushi Dixit
 - [ ] Allanki Saketh Kumar
 - [x] Manas Rastogi
