@@ -20,7 +20,7 @@ I also handled **deployment** by building and hosting the Gradio application on 
 
 For **Milestone 5**, I designed the **evaluation pipeline**, conducted **quantitative, qualitative, and error analysis**, and documented key insights, limitations, and improvements. I also refined the **RAG, ASR, and deployment components**.
 
-For **Milestone 6**, I led **final deployment and system integration**, prepared the **final presentation (PPT)**, refined and updated the **developer guide**, and reviewed all reports. I ensured **system stability, documentation quality, and submission readiness**, while coordinating the team throughout.
+For **Milestone 6**, I led **final deployment and system integration**, prepared the **final presentation (PPT)**, prepared the **final report (doc)**, refined and updated the **developer guide**, and reviewed all reports. I ensured **system stability, documentation quality, and submission readiness**, while coordinating the team throughout.
 
 Overall, I served as:
 - **Technical Lead** — model training, RAG pipeline, ASR/TTS, deployment  
