@@ -2,56 +2,108 @@
 
 `Group-8-DS-and-AI-Lab-Project`
 
-## Problem Statement
+[![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Live%20Demo-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/spaces/harishsahadev/crop-disease-assistant)
+[![Gradio](https://img.shields.io/badge/Gradio-App-F97316?logo=gradio&logoColor=fff)](crop-disease-assistant/README.md)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=fff)](crop-disease-assistant/requirements.txt)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=fff)](models/model_details.md)
 
-[DL; Vision; GenAI; Speech]
+This project builds a multimodal AI assistant for crop disease support in Indian farming contexts. It combines crop leaf image classification, retrieval-based agricultural guidance, and multilingual interaction through text and voice.
 
-Timely detection of crop diseases and access to reliable agricultural guidance remain critical challenges for farmers in India. Small and medium-scale farmers often rely on local Indian languages and voice-based communication, while many existing agricultural applications are English-centric, text-heavy, or require expert interpretation. In addition, rural regions often face connectivity constraints, making high-compute, fully online solutions impractical.
+The system is designed around five major crops: corn, potato, rice, wheat, and sugarcane. A farmer can upload a leaf image, ask a question, and receive grounded guidance based on the detected crop disease.
 
-This project proposes the development of a **Multimodal AI Assistant for Smart Agriculture**, tailored to Indian farming conditions. The system will focus on **major harvested crops such as rice, wheat, sugarcane, potato, and corn**, targeting commonly occurring leaf diseases including **leaf blight, rust, early/late blight (potato), smut (sugarcane), and mildew-type infections**. The vision module will primarily process **leaf-based images**, while being designed to handle real-world variability such as different lighting conditions, varied camera quality, cluttered backgrounds, and partially damaged leaves.
+## What This Project Includes
 
-The proposed system will include:
-- A **deep learning-based crop disease detection model** trained on publicly available crop disease datasets, evaluated using accuracy and F1-score.
+- A crop disease classification pipeline for leaf images
+- A RAG-based advisory system using curated agriculture documents
+- Multilingual support for text and voice interaction
+- A Gradio app for local use and Hugging Face deployment
+- Training notebooks, reports, and milestone documentation
 
-- Optional **disease severity classification** (mild, moderate, severe) to assist early intervention.
+## Core Stack
 
-- A **multilingual chatbot supporting Hindi, Bengali, Tamil, Telugu, Malayalam, and Kannada** to provide agriculture-related guidance.
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-RAG%20Store-6E44FF)](crop-disease-assistant/rag/)
+[![Whisper](https://img.shields.io/badge/Whisper-Speech%20to%20Text-111827)](crop-disease-assistant/voice/asr.py)
+[![gTTS](https://img.shields.io/badge/gTTS-Text%20to%20Speech-34A853?logo=google&logoColor=fff)](crop-disease-assistant/voice/tts.py)
+[![Groq](https://img.shields.io/badge/Groq-LLM%20Generation-000000)](crop-disease-assistant/pipeline/generator.py)
 
-- Integrated **voice and text interaction**, using speech-to-text (ASR) and text-to-speech (TTS) for real-time communication in supported languages.
+Main tools and dependencies used in this project include Python, Gradio, PyTorch, ChromaDB, OpenAI Whisper, gTTS, and Groq-powered response generation.
 
-- A **retrieval-augmented generation (RAG)** pipeline to ensure that recommendations are grounded in verified agricultural advisories and reliable knowledge sources.
+## Project Structure
 
-- A lightweight, modular architecture optimized for **low-bandwidth rural environments**.
+```text
+.
+├── crop-disease-assistant/   # Main application
+├── data/                     # Dataset details and references
+├── models/                   # Model summary and results
+├── notebooks/                # Training and experimentation notebooks
+└── docs/                     # Milestone reports and project documents
+```
 
-## System Workflow
-When a farmer uploads a leaf image and submits a query (via text or voice):
+## Quick Start
 
-1. The image is processed by the disease detection model.
+Run the demo app locally:
 
-2. The predicted disease (and severity level) is passed as structured input to the conversational module.
+Clone the Hugging Face Space repository:
 
-3. Relevant guidance is retrieved from curated agricultural resources.
+```bash
+git clone https://huggingface.co/spaces/harishsahadev/crop-disease-assistant
+cd crop-disease-assistant
+```
 
-4. A grounded response is generated in the selected Indian language.
+Create a virtual environment:
 
-5. If voice mode is used, the system performs real-time speech recognition and speech synthesis.
+```bash
+python -m venv .venv
+```
 
+Activate the virtual environment:
 
-## Context-Aware Recommendations
-Recommendations will consider:
-- Crop type
-- Detected disease
-- Season
-- Optional region input for location-specific advisories
+```bash
+source .venv/bin/activate
+```
 
+Install the required dependencies:
 
-## Key Differentiation
-The proposed system uniquely integrates:
-- Real-time disease detection for major Indian crops
-- Multilingual conversational support in local Indian languages
-- Grounded, retrieval-based agricultural recommendations
-- Voice-enabled interaction suitable for rural users
-- Optimization for low-connectivity environments
+```bash
+pip install -r requirements.txt
+```
 
+Run the app:
 
-By combining computer vision, generative AI, and multilingual speech interaction, the system aims to deliver accessible, reliable, and context-aware agricultural assistance tailored to Indian farmers.
+```bash
+python app.py
+```
+
+Open the Gradio link shown in the terminal after the app starts.
+
+For a more detailed setup and usage guide, see [crop-disease-assistant/README.md](crop-disease-assistant/README.md).
+
+Before running the full assistant, make sure these files are available:
+
+- `model/mobilenet.pth` for disease prediction
+- `rag/chroma_db/` for document retrieval
+- `GROQ_API_KEY` set in your environment for response generation
+
+Example:
+
+```bash
+export GROQ_API_KEY=your_api_key_here
+```
+
+## Architecture
+
+The assistant follows a multimodal pipeline: leaf image input goes through disease detection, user text or speech is processed into a query, relevant agricultural documents are retrieved, and a grounded response is generated back in text or audio.
+
+![Project Architecture](docs/milestone-3/architecture.png)
+
+## Model and Dataset
+
+- Dataset details: [data/dataset_details.md](data/dataset_details.md)
+- Model summary: [models/model_details.md](models/model_details.md)
+
+## App and Reports
+
+- Try live demo: [Hugging Face Space](https://huggingface.co/spaces/harishsahadev/crop-disease-assistant)
+- App guide: [crop-disease-assistant/README.md](crop-disease-assistant/README.md)
+- Final report: [docs/milestone-6/final_project_report.md](docs/milestone-6/final_project_report.md)
+- User guide: [docs/milestone-6/user_guide.md](docs/milestone-6/user_guide.md)
