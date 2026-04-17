@@ -35,6 +35,12 @@ crop-disease-assistant/
     └── tts.py                    ← gTTS text-to-speech
 ```
 
+## System Architecture
+
+The assistant integrates MobileNet for disease prediction, ChromaDB for document retrieval, and Groq for LLM response generation, all accessible via a Gradio interface with voice capabilities powered by Whisper and gTTS.
+
+![Project Architecture](system_architecture.png)
+
 ## Setup Steps
 
 ### 1. Add your model
