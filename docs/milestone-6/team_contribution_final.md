@@ -82,8 +82,14 @@ For the project, I contributed across project planning, environment setup, data 
 ---
 
 ## Allanki Saketh Kumar
-### 21f3002277
+### 21f3002278
 
+- Presentation lead (Milestones 1 & 3): structured and designed the project PPTs, system-architecture slides, and presentation flow to clearly communicate objectives, methods, and results; prepared speaker notes and slide assets used in team presentations.
+- Dataset review (Milestone 2): verified dataset source, licensing, sample counts, class distribution, and preprocessing readiness (resize, normalization) to ensure the dataset was ready for modeling; advised on handling class imbalance and minor preprocessing fixes.
+- RAG content curation (Milestone 4): collected, cleaned, and chunked authoritative agricultural documents (ICAR, FAO, IRRI) for embedding and retrieval to improve grounded responses; created metadata tags and source mapping to preserve provenance in retrieval results.
+- Developer documentation (Milestone 6): contributed to and reviewed the developer guide, refining installation, integration notes, dependency lists, and deployment instructions; added troubleshooting tips for environment setup and model loading.
+- Collaboration & QA: participated in design reviews, experiment validation checkpoints, and integration testing; helped proofread reports, checked cross-references, and ensured consistency across documentation.
+- Additional support: assisted teammates with slide preparation, provided feedback on experimental settings, and coordinated quick syncs to unblock deliverables.
 ---
 
 ### Team Member Signatures
@@ -92,5 +98,5 @@ The following team members have reviwed and approved the contents of report/file
 - [x] Harish Sahadev M
 - [ ] Sai Naman
 - [ ] Ayushi Dixit
-- [ ] Allanki Saketh Kumar
+- [x] Allanki Saketh Kumar
 - [ ] Manas Rastogi

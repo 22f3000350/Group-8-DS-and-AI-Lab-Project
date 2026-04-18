@@ -996,5 +996,5 @@ The following team members have reviwed and approved the contents of report/file
 - [x] Harish Sahadev M
 - [x] Sai Naman
 - [ ] Ayushi Dixit
-- [ ] Allanki Saketh Kumar
+- [x] Allanki Saketh Kumar
 - [ ] Manas Rastogi
