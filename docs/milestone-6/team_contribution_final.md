@@ -95,7 +95,7 @@ For the project, I contributed across project planning, environment setup, data 
 ### Team Member Signatures
 
 The following team members have reviwed and approved the contents of report/file:
-- [x] Harish Sahadev M
+- [ ] Harish Sahadev M
 - [ ] Sai Naman
 - [ ] Ayushi Dixit
 - [x] Allanki Saketh Kumar
