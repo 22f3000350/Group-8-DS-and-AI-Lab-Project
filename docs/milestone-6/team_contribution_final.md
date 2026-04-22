@@ -79,6 +79,15 @@ For the project, I contributed across project planning, environment setup, data 
 ## Ayushi Dixit
 ### 22f3000082
 
+- Participated in the initial project discussions and helped define the direction and scope of the system
+- Conducted background research on crops, crop diseases, and existing agricultural AI tools to support problem definition and dataset selection
+- Contributed to drafting the Milestone 1 report, including structuring the problem statement, objectives, and project plan
+- Performed the Exploratory Data Analysis (EDA) on the dataset, covering class distribution, image size variability, RGB channel structure, duplicate detection, and class imbalance assessment
+- Worked on the data preprocessing pipeline including image resizing, RGB conversion, normalization, corrupt file checks, and stratified data splitting
+- Drafted the Non-Technical Report, communicating the project’s purpose, approach, and outcomes in accessible language for a general audience
+- Reviewed all project documents before final submission to ensure consistency, accuracy, and quality across reports
+- Assisted in preparing the presentation, including contributing to slide content, structuring the narrative, and helping organize key talking points
+
 ---
 
 ## Allanki Saketh Kumar
@@ -95,7 +104,7 @@ For the project, I contributed across project planning, environment setup, data 
 ### Team Member Signatures
 
 The following team members have reviwed and approved the contents of report/file:
-- [ ] Harish Sahadev M
+- [x] Harish Sahadev M
 - [ ] Sai Naman
 - [ ] Ayushi Dixit
 - [x] Allanki Saketh Kumar
